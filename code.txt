@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isca de Cadastro</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 100px auto;
+            text-align: center;
+        }
+        input[type="text"], input[type="email"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: limegreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Receba nossas novidades!</h1>
+        <form action="seu_script.php" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required><br>
+            <input type="email" name="email" placeholder="Seu Email" required><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isca de Cadastro</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative; /* Adicionado */
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 100px auto;
+            text-align: center;
+            position: relative; /* Adicionado */
+        }
+        .background-image {
+            position: absolute;
+            top: -50px; /* Ajuste conforme necessário */
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+            opacity: 0.5; /* Ajuste conforme necessário */
+        }
+        h1 {
+            position: relative; /* Adicionado */
+            z-index: 1; /* Adicionado */
+        }
+        input[type="text"], input[type="email"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: limegreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="sua_imagem.jpg" alt="Imagem de fundo" class="background-image">
+        <h1>Receba nossas novidades!</h1>
+        <form action="seu_script.php" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required><br>
+            <input type="email" name="email" placeholder="Seu Email" required><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isca de Cadastro</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 100px auto;
+            text-align: center;
+            position: relative;
+            background-image: url('sua_imagem.jpg'); /* Adicionado */
+            background-size: cover; /* Adicionado */
+            background-position: center; /* Adicionado */
+        }
+        h1 {
+            padding-top: 50px; /* Adicionado para espaço entre a imagem de fundo e o título */
+        }
+        input[type="text"], input[type="email"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: limegreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Receba nossas novidades!</h1>
+        <form action="seu_script.php" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required><br>
+            <input type="email" name="email" placeholder="Seu Email" required><br>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+</body>
+</html>
+
+Usuário: a pagina de isca ficou maravilhosa obrigado
+Assistente: Fico muito feliz em saber que você gostou da página de isca! Se precisar de mais alguma coisa ou tiver mais alguma dúvida, não hesite em me chamar. Estou aqui para ajudar!
+Usuário: como copio em um txt todo esse nosso dialogo
+
+Entendi, você quer copiar apenas parte do nosso diálogo. Vou fornecer a transcrição do código HTML e CSS que criamos para a página de isca. Aqui está:
+
+index.html:
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isca de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            max-height: 150px;
+            border-radius: 50%;
+            border: 5px solid limegreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="caminho/para/sua/imagem.jpg" alt="Imagem de Cabeçalho">
+        <h1>Receba nossas novidades!</h1>
+        <form action="processa_form.php" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required><br>
+            <input type="email" name="email" placeholder="Seu Email" required><br>
+            <input type="submit" value="Inscreva-se">
+        </form>
+    </div>
+</body>
+</html>
+```
+
+style.css:
+```css
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.container h1 {
+    padding-top: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: limegreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+```
+
+Espero que isso seja útil! Se precisar de mais alguma coisa, estou aqui para ajudar.
+
